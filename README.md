@@ -19,7 +19,7 @@
 ## As MongoDB supports sharding, voluminous writes can be handled very efficiently and nested data can be retrieved in no time.
 
 # To handle efficiently the GET /highest-discount route
-### We can use load-balancer like nginx which will distribute loads across many servers to stop a server from getting overwhelmed. We can use NGINX-> Any load balancer to streamline proper authentication and authorization. As we know, nginx is better suited to serve static content, API-level logic and business concerns can be handled with API Gateway.
+### We can use load-balancer like nginx which will distribute loads across many servers to stop a server from getting overwhelmed. We can use NGINX-> API Gateway to streamline proper authentication and authorization. As we know, nginx is better suited to serve static content, API-level logic and business concerns can be handled with API Gateway.
 ### Using Redis can be a good option too for caching as user will regularly fetch which is a better discount so it could save the server being bombarded with too many requests.
 
 # If I had more time to complete the project
