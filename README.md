@@ -3,7 +3,7 @@
 ## 2.Type **"npm install"**
 ## 3. After it installs dependencies, create an .env file in the same directory
 ## 4. Paste the following content
-       MONGODB_URI=mongodb+srv://shivamsingh226:Jio4gvoice123@piepayassignment.fqqw1zb.mongodb.net/
+       MONGODB_URI=mongodb+srv://shivamsingh226:<mypassword>@piepayassignment.fqqw1zb.mongodb.net/
        PORT=5000
 ## 5. Now, type:
       npx nodemon index.js
